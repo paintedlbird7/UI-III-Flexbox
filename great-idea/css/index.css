@@ -104,11 +104,8 @@ div {
 	display: flex;
 }
 
-.home {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-  }
+
+
 
 .logo {
 	margin: right;
