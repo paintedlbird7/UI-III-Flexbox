@@ -135,3 +135,19 @@ div {
 	border: 2px solid rgb(0, 255, 115);
 	display: flex;
 }
+
+
+h2 {
+	font-size: 20px;
+	margin: auto;
+	border: 2px solid rgb(0, 255, 115);
+	display: flex;
+}
+
+p {
+	font-size: 18px;
+font-family: Arial, Helvetica, sans-serif
+margin: auto;
+	border: 2px solid rgb(0, 255, 115);
+	display: flex;
+}
