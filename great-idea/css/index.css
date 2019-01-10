@@ -98,10 +98,10 @@ div {
 } 
   
 .container {
-	width: 	900px;
-	margin: auto;
+	width: 	600px;
+	margin: 0 auto;
 	border: 1px solid red;
-	display: flex;
+	display: block
 }
 
 
@@ -121,27 +121,17 @@ div {
 }
 
 .services {
-	width: 	900px;
 	margin: auto;
 	border: 2px solid blue;
 	display: flex;
 }
 
-
-
-.sixboxes {
-	width: 	900px;
+.digitaldesign {
+	width: 	600px;
+	height: 300px;
 	margin: auto;
 	border: 2px solid rgb(0, 255, 115);
-	display: flex;
-}
-
-
-h2 {
-	font-size: 20px;
-	margin: auto;
-	border: 2px solid rgb(0, 255, 115);
-	display: flex;
+	flex-direction: column;
 }
 
 p {
@@ -151,3 +141,25 @@ margin: auto;
 	border: 2px solid rgb(0, 255, 115);
 	display: flex;
 }
+
+button {
+	border: 2px solid rgb(0, 183, 255);
+	margin: bottom;
+	flex-direction: column;
+}
+
+.content-row {
+	display: flex;
+  }
+
+.content-row div{
+	display: flex;
+}
+
+h2 {
+	font-size: 20px;
+	margin: auto;
+	border: 2px solid rgb(0, 255, 115);
+	display: flex;
+}
+
