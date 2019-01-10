@@ -73,19 +73,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-
-.container {
-	width: 	900px;
-	margin: auto;
-	border: 1px solid red;
-}
-
 div {
 	border: 1px solid red;
 }
 
 .container header nav a {
-	margin: 0 10px;
+	margin: 0 1 0px;
 	margin-top: 30px;
 	border: 1px solid lightgray;
 	padding: 20px;
@@ -96,7 +89,52 @@ div {
 	margin-bottom: 20px;
 	 /*======= create a background property. Set the value to #F87B99 */
 	background-color: white;
+	display: flex;
   }
 
+  hearder nav a {
+	/* TB LR */
+	margin: 0, 20px;
+} 
   
+.container {
+	width: 	900px;
+	margin: auto;
+	border: 1px solid red;
+	display: flex;
+}
 
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  }
+
+.logo {
+	margin: right;
+	border: 2px solid blue;
+	display: flex;
+}
+
+.keyboardimage {
+	width: 	900px;
+	margin: auto;
+	border: 2px solid blue;
+	display: flex;
+}
+
+.services {
+	width: 	900px;
+	margin: auto;
+	border: 2px solid blue;
+	display: flex;
+}
+
+
+
+.sixboxes {
+	width: 	900px;
+	margin: auto;
+	border: 2px solid rgb(0, 255, 115);
+	display: flex;
+}
